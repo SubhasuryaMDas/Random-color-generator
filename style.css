@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   text-align: center;
+
+}
+#main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.color-container{
+    height: 150px;
+    width: 250px;
+    display: flex;
+      justify-content: center;
+    align-items: center;
+    margin:10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
